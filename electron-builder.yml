@@ -1,0 +1,12 @@
+appId: com.flawk.present
+productName: Present
+copyright: Copyright © 2019 Eric Adamski
+directories:
+  output: dist
+  buildResources: resources
+files:
+  - from: .
+    filter:
+      - package.json
+      - app
+publish: null
